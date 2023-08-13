@@ -29,7 +29,6 @@ async function Page() {
 
       <section className='mt-9 bg-dark-2 p-10'>
         <AccountProfile user={userData} btnTitle='Continue' />
-        {console.log(userData)}
         <h1>This is the Onboarding page</h1>
       </section>
     </main>
